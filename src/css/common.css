@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  gap: 30px;
+  margin-top: 300px;
+  flex-direction: inline;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 100px;
+  font-weight: 600;
+  font-family: 'Kanit';
+  color: #12fa;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Kanit';
+  color: #09ae01;
+}
