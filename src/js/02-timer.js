@@ -78,7 +78,8 @@ function getCounter() {
       daysItem.innerHTML = '00';
       hoursItem.innerHTML = '00';
       minutesItem.innerHTML = '00';
-      secondsItem.innerHTML = '00';
+        secondsItem.innerHTML = '00';
+        Notiflix.Notify.success('Countdown finished');
     }
   }, 1000);
 }
